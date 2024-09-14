@@ -25,7 +25,7 @@ body {
     background-color: rgb(42, 72, 204);
     color: white;
     padding: 20px; /* Reduced padding for better responsiveness */
-    width: 100%; /* Full width on smaller screens */
+    width: 88%; /* Full width on smaller screens */
     text-align: center;
     border-bottom: 5px solid #0d0d0e; /* Border at the bottom for mobile */
 }
@@ -94,9 +94,10 @@ ul li {
 
 /* Right Section Styling */
 .right-section {
-    padding: 20px;
+    padding:20px;
     width: 100%; /* Full width on smaller screens */
     box-sizing: border-box; /* Ensure padding is included in width */
+    
 }
 
 /* Button Styling */
@@ -123,13 +124,14 @@ button:hover {
     }
 
     .left-section {
-        width: 35%;
-        border-right: 5px solid #0d0d0e; /* Border on the right for larger screens */
+        width: 30%;
+        border-right: 3px solid #0d0d0e; /* Border on the right for larger screens */
         border-bottom: none;
     }
 
     .right-section {
-        width: 65%;
+        width: 70%;
+        border:3px solid #0d0d0e;
     }
 }
 
